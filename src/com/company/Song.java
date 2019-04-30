@@ -28,9 +28,6 @@ public class Song {
 
     @Override
     public String toString() {
-        return "Song{" +
-                "Title='" + Title + '\'' +
-                ", duration=" + duration +
-                '}';
+        return  Title;
     }
 }
